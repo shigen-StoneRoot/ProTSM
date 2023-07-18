@@ -13,7 +13,20 @@ pytorch==1.7.0
 
 You should first download the raw .mdf data from the openMPI website: https://magneticparticleimaging.github.io/OpenMPIData.jl/latest/index.html
 
+Make directories:
+```
+mkdir raw_mdf_data
+mkdir preprocessed_data
+```
+
 Please download the Calibration Measurements 6 and 7, and put them in the raw_mdf_data/ folder.
+
+Make sure the following file structure:
+```
+--raw_mdf_data
+----6.mdf
+----7.mdf
+```
 
 Then you can run the following command to preprocess the data:
 ```
@@ -35,6 +48,7 @@ python evaluate.py
 
 ### Reference
 If you take advantage of this paper in your research, please cite the following in your manuscript:
+
 "Coming soon"
 
 If you have any problem, please email me with this address: shigen@buaa.edu.cn
