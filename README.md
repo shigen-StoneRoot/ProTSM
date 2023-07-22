@@ -49,6 +49,16 @@ python evaluate.py
 ### Reference
 If you take advantage of this paper in your research, please cite the following in your manuscript:
 
-"Coming soon"
+```
+@ARTICLE{10189221,
+  author={Shi, Gen and Yin, Lin and An, Yu and Li, Guanghui and Zhang, Liwen and Bian, Zhongwei and Chen, Ziwei and Zhang, Haoran and Hui, Hui and Tian, Jie},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Progressive Pretraining Network for 3D System Matrix Calibration in Magnetic Particle Imaging}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2023.3297173}}
+```
 
 If you have any problem, please email me with this address: shigen@buaa.edu.cn
