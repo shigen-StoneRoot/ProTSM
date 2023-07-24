@@ -152,8 +152,8 @@ def predict(model, val_loader, val_nrmses):
         vec_reco_SM = comp_reco_SM.reshape(comp_reco_SM.shape[0], 1, -1)
         vec_HR_SM = comp_HR_SM.reshape(comp_HR_SM.shape[0], 1, -1)
 
-        alpha = (vec_reco_SM.conj() * vec_HR_SM).sum((1, 2)) / (vec_reco_SM.conj() * vec_reco_SM).sum((1, 2))
-        vec_reco_SM = vec_reco_SM * alpha.reshape(-1, 1, 1)
+        # alpha = (vec_reco_SM.conj() * vec_HR_SM).sum((1, 2)) / (vec_reco_SM.conj() * vec_reco_SM).sum((1, 2))
+        # vec_reco_SM = vec_reco_SM * alpha.reshape(-1, 1, 1)
 
         reco_SM = vec_reco_SM.reshape(vec_reco_SM.shape[0], 40, 40, 40)
         pickle.dump(reco_SM, open('trans_reco_SM_' + str(down) + '_60.pkl', 'wb'))
