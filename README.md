@@ -55,9 +55,9 @@ If you take advantage of this paper in your research, please cite the following 
   journal={IEEE Transactions on Medical Imaging}, 
   title={Progressive Pretraining Network for 3D System Matrix Calibration in Magnetic Particle Imaging}, 
   year={2023},
-  volume={},
-  number={},
-  pages={1-1},
+  volume={42},
+  number={12},
+  pages={3639-3650},
   doi={10.1109/TMI.2023.3297173}}
 ```
 
